@@ -13,6 +13,7 @@ public class StringQueue implements IQueue {
   private List<String> elements = new ArrayList<String>();
   private int maxSize = 5;
 
+  //Typo in maxSize and no use of this.
   public StringQueue(int maxSize) {
     this.maxSize = maxSize;
   }
@@ -31,7 +32,8 @@ public class StringQueue implements IQueue {
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
+    //changed == to !=
+    if (elements.size() != 0) {
       elements.remove(0);
     }
 
@@ -41,7 +43,8 @@ public class StringQueue implements IQueue {
   @Override
   public String remove() {
     String element = poll();
-    element = "";
+    //element = ""; <- this line overrides any return value that could come
+    // from poll()
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 
