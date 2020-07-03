@@ -18,7 +18,7 @@ Step 3 find bug with tests, repeat step 2 and so on...
 ## Tasklist
 - [x] First Steps
 - [x] Git
-- [ ] Maven & POM
+- [x] Maven & POM
 - [ ] Implementation & Comments
 - [ ] Testing
 - [ ] Maven Site Documentation
@@ -37,3 +37,8 @@ Step 3 find bug with tests, repeat step 2 and so on...
 	<version>3.0.0</version>
 </plugin>
 ```
+
+## ERROR
+* [CORRECTED] Konstrutor typo in parameter "maxSize", forgotten use of this. fixed.
+* 
+* 
