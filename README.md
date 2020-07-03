@@ -40,5 +40,5 @@ Step 3 find bug with tests, repeat step 2 and so on...
 
 ## ERROR
 * [CORRECTED] Konstrutor typo in parameter "maxSize", forgotten use of this. fixed.
-* 
-* 
+* [CORRECTED] In function `poll()` had a wrong comparision: changed == to !=
+* [CORRECTED] In function `remove()` had a line that provided that any return value from the poll call could be used.
