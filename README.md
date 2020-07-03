@@ -23,3 +23,17 @@ Step 3 find bug with tests, repeat step 2 and so on...
 - [ ] Testing
 - [ ] Maven Site Documentation
 - [ ] Lab-Report
+
+## Relevant Code Sniped:
+```
+<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-site-plugin</artifactId>
+	<version>3.7.1</version>
+</plugin>
+<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-project-info-reports-plugin</artifactId>
+	<version>3.0.0</version>
+</plugin>
+```
