@@ -17,7 +17,7 @@ Step 3 find bug with tests, repeat step 2 and so on...
 
 ## Tasklist
 - [x] First Steps
-- [ ] Git
+- [x] Git
 - [ ] Maven & POM
 - [ ] Implementation & Comments
 - [ ] Testing
