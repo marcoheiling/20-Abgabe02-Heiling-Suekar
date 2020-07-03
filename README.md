@@ -16,7 +16,7 @@ Step 2 will be writing some basic tests.
 Step 3 find bug with tests, repeat step 2 and so on...
 
 ## Tasklist
-- [ ] First Steps
+- [x] First Steps
 - [ ] Git
 - [ ] Maven & POM
 - [ ] Implementation & Comments
