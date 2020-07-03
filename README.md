@@ -14,3 +14,12 @@ For Documentation we use JavaDoc and MavenSiteDoc. Given are the classes `IQueue
 We start by reading all files, to get brief overview.
 Step 2 will be writing some basic tests.
 Step 3 find bug with tests, repeat step 2 and so on...
+
+## Tasklist
+- [ ] First Steps
+- [ ] Git
+- [ ] Maven & POM
+- [ ] Implementation & Comments
+- [ ] Testing
+- [ ] Maven Site Documentation
+- [ ] Lab-Report
