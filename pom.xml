@@ -27,9 +27,24 @@
         <picUrl>https://avatars3.githubusercontent.com/u/62705158</picUrl>
       </properties>
     </developer>
+    <developer>
+      <id>MicSuk</id>
+      <name>Michael Suekar</name>
+      <email>micheal.suekar@edu.campus02.at</email>
+      <url>https://github.com/MicSuk</url>
+      <organization>CAMPUS 02 Fachhochschule der Wirtschaft GmbH</organization>
+      <organizationUrl>https://www.campus02.at/wirtschaftsinformatik</organizationUrl>
+      <roles>
+        <role>Student</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+      <properties>
+        <picUrl>https://avatars2.githubusercontent.com/u/62705581</picUrl>
+      </properties>
+    </developer>
   </developers>
 
-  <properties>
+<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.comiler.release>11</maven.comiler.release>
   </properties>
