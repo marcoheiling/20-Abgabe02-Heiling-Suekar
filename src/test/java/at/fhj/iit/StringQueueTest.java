@@ -1,13 +1,12 @@
 package at.fhj.iit;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
 
 import java.util.NoSuchElementException;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Testing StringQueue implementation")
 class StringQueueTest {
@@ -36,7 +35,7 @@ class StringQueueTest {
     void testPoll() {
         assertEquals(queue.poll(), "Test1");
         assertEquals(queue.poll(), "Test2");
-        assertEquals(queue.poll(), null);
+        assertNull(queue.poll());
     }
 
     @Test
@@ -54,7 +53,7 @@ class StringQueueTest {
         assertEquals(queue.peek(), "Test1");
         queue.remove();
         queue.remove();
-        assertEquals(queue.peek(), null);
+        assertNull(queue.peek());
     }
 
     @Test
