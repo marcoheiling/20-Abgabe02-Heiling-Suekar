@@ -8,6 +8,10 @@ import java.util.NoSuchElementException;
 // there are different Bugs, wrong implementation, typos, ...
 // write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
 
+/**
+ * Implementation of a queue which holds Strings.
+ * Elements are stored in an ArrayList
+ */
 public class StringQueue implements IQueue<String> {
 
   private List<String> elements = new ArrayList<String>();

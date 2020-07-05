@@ -1,5 +1,9 @@
 package at.fhj.iit;
 
+/**
+ * an Interface which for a queue implementation with Generics.
+ * @param <T> Generic data type
+ */
 public interface IQueue<T> {
   /**
    * Adds the element obj to the queue.
