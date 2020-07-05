@@ -23,6 +23,10 @@ class StringQueueTest {
        queue.offer("Test2");
    }
 
+    /**
+     * To test the offer() method we just add an element which should return true if the queue isn't full.
+     * Otherwise it should return false.
+     */
    @Test
    @DisplayName("Testing offering to Queue")
    void testOffer() {
@@ -30,6 +34,10 @@ class StringQueueTest {
        assertFalse(queue.offer("Test4"));
    }
 
+    /**
+     * The poll() method should return the first element in the queue and remove it.
+     * If the queue is empty it should return null.
+     */
     @Test
     @DisplayName("Testing polling from Queue")
     void testPoll() {
@@ -38,6 +46,10 @@ class StringQueueTest {
         assertNull(queue.poll());
     }
 
+    /**
+     * The remove() method should return the first element in the queue and remove it.
+     * If the queue is empty it should throw an Exception.
+     */
     @Test
     @DisplayName("Testing removing from Queue")
     void testRemove() {
@@ -46,6 +58,10 @@ class StringQueueTest {
         assertThrows(NoSuchElementException.class, () -> queue.remove());
     }
 
+    /**
+     * The peek() method should return the first element in the queue and it should NOT remove it.
+     * If the queue is empty it should return null.
+     */
     @Test
     @DisplayName("Testing peeking from Queue")
     void testPeek() {
@@ -56,6 +72,10 @@ class StringQueueTest {
         assertNull(queue.peek());
     }
 
+    /**
+     * The element() method should return the first element in the queue and it should NOT remove it.
+     * If the queue is empty it should throw an exception.
+     */
     @Test
     @DisplayName("Testing getting an element from Queue")
     void testElement() {
