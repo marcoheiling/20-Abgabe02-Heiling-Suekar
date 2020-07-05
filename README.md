@@ -19,8 +19,8 @@ Step 3 find bug with tests, repeat step 2 and so on...
 - [x] First Steps
 - [x] Git
 - [x] Maven & POM
-- [ ] Implementation & Comments
-- [ ] Testing
+- [x] Implementation & Comments
+- [x] Testing
 - [ ] Maven Site Documentation
 - [ ] Lab-Report
 
