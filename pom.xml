@@ -129,4 +129,12 @@
             </plugin>
         </plugins>
     </reporting>
+
+    <scm>
+        <connection>scm:git:https://github.com/marcoheiling/20-Abgabe02-Heiling-Suekar.git</connection>
+        <developerConnection>scm:git:https://github.com/marcoheiling/20-Abgabe02-Heiling-Suekar
+        </developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/marcoheiling/20-Abgabe02-Heiling-Suekar</url>
+    </scm>
 </project>
