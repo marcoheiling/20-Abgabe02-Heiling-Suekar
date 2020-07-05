@@ -2,101 +2,114 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>at.fhj.iit</groupId>
-  <artifactId>Queue</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <groupId>at.fhj.iit</groupId>
+    <artifactId>Queue</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-  <name>Queue</name>
-  <url>https://github.com/marcoheiling/20-Abgabe02-Heiling-Suekar.git</url>
+    <name>Queue</name>
+    <url>https://github.com/marcoheiling/20-Abgabe02-Heiling-Suekar.git</url>
 
-  <developers>
-    <developer>
-      <id>marcoheiling</id>
-      <name>Marco Heiling</name>
-      <email>marco.heiling@edu.campus02.at</email>
-      <url>https://github.com/marcoheiling</url>
-      <organization>CAMPUS 02 Fachhochschule der Wirtschaft GmbH</organization>
-      <organizationUrl>https://www.campus02.at/wirtschaftsinformatik</organizationUrl>
-      <roles>
-        <role>Student</role>
-      </roles>
-      <timezone>Europe/Vienna</timezone>
-      <properties>
-        <picUrl>https://avatars3.githubusercontent.com/u/62705158</picUrl>
-      </properties>
-    </developer>
-    <developer>
-      <id>MicSuk</id>
-      <name>Michael Suekar</name>
-      <email>micheal.suekar@edu.campus02.at</email>
-      <url>https://github.com/MicSuk</url>
-      <organization>CAMPUS 02 Fachhochschule der Wirtschaft GmbH</organization>
-      <organizationUrl>https://www.campus02.at/wirtschaftsinformatik</organizationUrl>
-      <roles>
-        <role>Student</role>
-      </roles>
-      <timezone>Europe/Vienna</timezone>
-      <properties>
-        <picUrl>https://avatars2.githubusercontent.com/u/62705581</picUrl>
-      </properties>
-    </developer>
-  </developers>
+    <developers>
+        <developer>
+            <id>marcoheiling</id>
+            <name>Marco Heiling</name>
+            <email>marco.heiling@edu.campus02.at</email>
+            <url>https://github.com/marcoheiling</url>
+            <organization>CAMPUS 02 Fachhochschule der Wirtschaft GmbH</organization>
+            <organizationUrl>https://www.campus02.at/wirtschaftsinformatik</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+            <properties>
+                <picUrl>https://avatars3.githubusercontent.com/u/62705158</picUrl>
+            </properties>
+        </developer>
+        <developer>
+            <id>MicSuk</id>
+            <name>Michael Suekar</name>
+            <email>micheal.suekar@edu.campus02.at</email>
+            <url>https://github.com/MicSuk</url>
+            <organization>CAMPUS 02 Fachhochschule der Wirtschaft GmbH</organization>
+            <organizationUrl>https://www.campus02.at/wirtschaftsinformatik</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+            <properties>
+                <picUrl>https://avatars2.githubusercontent.com/u/62705581</picUrl>
+            </properties>
+        </developer>
+    </developers>
 
-<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.comiler.release>11</maven.comiler.release>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.comiler.release>11</maven.comiler.release>
+    </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.6.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.6.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-params</artifactId>
-      <version>5.6.2</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
-  <build>
-    <plugins>
-      <!-- maven site for documentation -->
-      <!-- manual upgraded maven site plugin, because 3.3 had an error -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>3.7.1</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.0.0</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
-        <configuration>
-          <release>11</release>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.1</version>
-      </plugin>
-    </plugins>
-  </build>
+    <build>
+        <plugins>
+            <!-- maven site for documentation -->
+            <!-- manual upgraded maven site plugin, because 3.3 had an error -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <release>11</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+
+            <!-- maven site for documentation -->
+            <!-- manual upgraded maven site plugin, because 3.3 had an error -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>
